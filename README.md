@@ -1,9 +1,9 @@
-#RAG Agent – Supabase + Gemini + n8n Workflow
+RAG Agent – Supabase + Gemini + n8n Workflow
 
 This project is a fully automated RAG (Retrieval-Augmented Generation) AI Agent built using n8n, Google Gemini, Supabase Vector Store, and PostgreSQL chat memory.
 It allows you to upload documents, generate embeddings, store them in Supabase, and run an AI chat agent that responds with contextual knowledge retrieved from stored embeddings.
 
-#Features
+Features
 Google Gemini Chat Model for AI responses
 RAG-based contextual answers using Supabase vector search
 Document ingestion via Google Drive
@@ -12,7 +12,7 @@ Persistent chat memory using PostgreSQL
 Fully automated workflow triggered by chat messages
 n8n-based visual orchestration
 
-#Architecture Overview
+Architecture Overview
 This workflow integrates several powerful components:
 
 1. Chat Trigger
